@@ -20,6 +20,7 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+
     @Column(name = "user_id")
     private long userId;
 
@@ -32,7 +33,7 @@ public class User {
     @Column(name = "user_phoneNo")
     private long userPhoneNo;
 
-
+// getters and setters
     public long getUserId() {
         return userId;
     }
